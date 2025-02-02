@@ -7,7 +7,7 @@ public class TestJDBC {
         
         // Establish connection to the PostgreSQL database
         Connection cx = DriverManager.getConnection(
-            "jdbc:postgresql://localhost:5432/your_database", "your_username", "your_password");
+            "jdbc:postgresql://localhost:5433/test1", "postgres", "app");
         
         // Create a statement object
         Statement st = cx.createStatement();
