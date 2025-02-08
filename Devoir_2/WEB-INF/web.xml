@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+  <servlet>
+    <servlet-name>BonjourServlet</servlet-name>
+    <servlet-class>BonjourServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BonjourServlet</servlet-name>
+    <url-pattern>/bonjour</url-pattern>
+  </servlet-mapping>
+</web-app>
