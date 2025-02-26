@@ -5,8 +5,6 @@ public class AccountImpl implements Account {
   private BankManager bankManager;
   private Client      client;
   private long        balance;
-  private String      accountNumber;
-
   // public constructor
   public AccountImpl ( 
       BankManager bankManager, 
@@ -15,7 +13,6 @@ public class AccountImpl implements Account {
     this.bankManager = bankManager;
     this.client      = client;
     this.balance     = 0;
-    this.accountNumber = accountNumber;
   }
 
   public void deposit(long amount) {
