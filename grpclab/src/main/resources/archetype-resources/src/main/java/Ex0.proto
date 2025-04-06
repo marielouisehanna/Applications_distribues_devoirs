@@ -1,0 +1,8 @@
+syntax="proto3";
+package td0;
+option java_multiple_files = true;
+
+message MyUser {
+  string email=1;
+  uint32 year_of_birth=2;
+}
